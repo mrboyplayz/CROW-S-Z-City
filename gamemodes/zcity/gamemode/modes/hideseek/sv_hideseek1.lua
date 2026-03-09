@@ -161,7 +161,7 @@ function MODE:GiveEquipment()
                     ply.noSound = true
 
                     ply:SetupTeam(ply:Team())
-                    ply:SetPlayerClass("default")
+                    ply:SetPlayerClass("terrorist")
 
                     zb.GiveRole(ply, "Seeker", Color(190,0,0))
 
